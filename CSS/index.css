@@ -29,21 +29,19 @@ section {
 } 
 
 
-
 .container .title1, .title2{
     font-size: 15vw;
     font-weight: 800;
     line-height: 150px;
     letter-spacing: -1vw;
-
 }
+
 
 .container .soon{
     font-size: 3.5vw;
-    margin-top: 10vh;
+    margin-top: 15vw;
     color: white;
 }
-
 
 
 .reveal1{
@@ -54,10 +52,12 @@ section {
     color: rgb(101, 184, 235);
 }
 
+
 .reveal1.active{
     transform: translateY(0px);
     opacity: 1;
 }
+
 
 .reveal2{
     position: relative;
@@ -66,11 +66,11 @@ section {
     transition: 2s all ease;
 }
 
+
 .reveal2.active{
     transform: translateY(0px);
     opacity: 1;
 }
-
 
 
 .reveal3{
@@ -78,6 +78,7 @@ section {
     animation: fade-in 2s ease forwards;
     animation-delay: 1s;
 }
+
 
 @keyframes fade-in{
     from{
