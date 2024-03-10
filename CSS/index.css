@@ -34,12 +34,13 @@ section {
     font-size: 15vw;
     font-weight: 800;
     line-height: 150px;
+    letter-spacing: -1vw;
 
 }
 
 .container .soon{
     font-size: 3.5vw;
-    margin-top: 5vh;
+    margin-top: 10vh;
     color: white;
 }
 
