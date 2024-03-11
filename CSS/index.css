@@ -81,6 +81,12 @@ section {
     animation-delay: 2s;
 }
 
+.reveal4{
+    opacity: 0;
+    animation: fade-in 2s ease forwards;
+    animation-delay: 4s;
+}
+
 
 @keyframes fade-in{
     from{
@@ -90,6 +96,7 @@ section {
         opacity: 1;
     }
 }
+
 
 
 
